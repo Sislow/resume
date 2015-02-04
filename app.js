@@ -1,8 +1,8 @@
-// require express
-var express = require('express');
+// initialize
+var express = require('express'), http = require('http');
 var bodyParser = require('body-parser');
+var port = process.env.PORT || 3000;
 var app = express();
-
 
 // utilize routes folder
 var routes = require('./routes');
@@ -23,8 +23,6 @@ app.get('/dev', routes.dev);
 app.get('/login', routes.login);
 app.get('*', routes.wrong);
 
-var server = app.listen(3000, function() {
-	console.log("listening on port 3000");
-});
-
+var server = http.createServer(app);
+app.listen(port);
 
