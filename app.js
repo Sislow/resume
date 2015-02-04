@@ -17,15 +17,13 @@ app.use(bodyParser.urlencoded());
 app.locals.appdata = require('./data.json');
 
 // Set pages
-app.get('ohportfolio.azurewebsites.net/', routes.index);
-app.get('ohportfolio.azurewebsites.net/about', routes.about);
-app.get('ohportfolio.azurewebsites.net/dev', routes.dev);
-app.get('ohportfolio.azurewebsites.net/login', routes.login);
+app.get('/', routes.index);
+app.get('/about', routes.about);
+app.get('/dev', routes.dev);
+app.get('/login', routes.login);
 app.get('*', routes.wrong);
 
 var server = http.createServer(app);
-<<<<<<< HEAD
 app.listen(port);
-=======
-app.listen(port);
->>>>>>> FETCH_HEAD
+
+
