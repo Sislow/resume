@@ -1,0 +1,44 @@
+{
+  "info": {
+    "title" : "Author",
+    "name": "Oliver Hardwick",
+    "summary" : "First attempt at Nodejs"
+  },
+
+  "social" : [{
+    "shortname" : "twitter",
+    "img" : "/images/socialmedia/twitter.png",
+    "url" : "http://www.twitter.com/otis327"
+  },{
+    "shortname" : "facebook",
+    "img" : "/images/socialmedia/facebook.png",
+    "url" : "https://www.facebook.com/oliolihar"
+  },{
+    "shortname" : "googleplus",
+    "img" : "/images/socialmedia/googleplus.png",
+    "url" : "https://plus.google.com/+OliverHardwick/posts"
+  }],
+
+"home" : {
+    "description": "My first implementations for Nodejs."
+  },
+  "cards" : {
+    "about": "For example building this page to show knowledge of JSON reading with Nodejs! So far so good!",
+    "dogs": "This is one of my favorite dogs her name is Jenny.",
+    "me": "Proud founder and owner of OLiOLi©",
+    "me_2": " I am also a student of the University of Cincinnati and President-elect for my fraternity Phi Kappa Theta.",
+    "me_3": "The beautiful gal next to me is my girlfriend Ashley.",
+    "gotag": "GoTag is a game for android using google maps that allows users to login and play a city-wide game of tag!",
+    "gotag_2": "Unfortuneatly this application will not be release just due to shear practicality of it.",
+    "gotag_3": "I utilized PHP, json, databases, google maps api, and TOO MANY asynctasks to accomplish this project.",
+    "unity": "I have just started to work in unity developing game physics and different styles of games.",
+    "unity_2": "Utilizing tutorials to teach myself the inner workings of the unity engine.",
+    "unity_3": "The images link to the resorces I looked at.",
+    "dev": "With my education I have inspired to at the be knowledgeable in most languages.",
+    "dev_2": "Though of course we all have our favorites. These are a few of mine!",
+    "tan": "Art Director of OLiOLi©",
+    "tan_2": "Broadcaster on Bearcast. Electronic-Media major at the Univerity of Cincinnati",
+    "tan_3": "The OLiOLi logo and GoTag images are just two examples of Tanner's exemplary work."
+  }
+
+}

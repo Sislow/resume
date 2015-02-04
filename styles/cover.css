@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,100);
+
+body {
+
+    background-color: #d0e4fe;
+    width: 99%;
+    background: -webkit-linear-gradient(left, white, #d0e4fe); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, #d0e4fe); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white, #d0e4fe); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white, #d0e4fe); /* Standard syntax (must be last) */
+    font-family: roboto;
+}
+
+.headHolder {
+    width: 99%;
+    height: 10%;
+    background: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+}
+.nav {
+    width: 99%;
+    height: 10%;
+    background: white;
+    position: absolute;
+    left: 10%;
+}
+.nav ul {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.nav h1 { margin-right: 50px;}
+.nav h3 { margin-left: 500px; }
+.nav li { display: inline-block; }
+.nav img { width: 40px; height: auto; margin-right: 50px;}
+.nav a:hover, a:active { background-color: black; opacity: 0.5; }
+.nav a:link, a:visited {
+    width: 120px;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content {
+    text-align: center;
+    background-color: white;
+    width:70%;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    padding: 10px;
+    overflow: hidden;
+
+   -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+
+
+}
+.content video {
+    width: 100%;
+    height: auto;
+}
+
+.imageShow {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+.imageShow a {
+    text-decoration: none;
+}
+
+.imageShowhov:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    
+}
+
+.foot {
+    text-align: center;
+    margin-bottom: 1%;
+    display: inline;
+
+}
+.foot li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.foot img { width: 50px; height: 50px; }
+.ic { 
+    list-style: none;  
+    margin:0;
+    padding:0;
+    
+}
+
+
+

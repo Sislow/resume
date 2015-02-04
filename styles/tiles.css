@@ -1,0 +1,38 @@
+.wrapper
+{
+    width:100%;
+    display: inline-block;
+ 
+}
+
+.small
+{
+    float: left;
+    width: 50%;
+    height: auto;
+    top: 0;
+    overflow: hidden;
+}
+
+.large
+{
+    float: left;
+    overflow: hidden;
+    height:30%;
+    width:30%;
+}
+
+.largeR
+{
+    float: right;
+    overflow: hidden;
+    height:30%;
+    width:30%;
+}
+.huge
+{
+    float: left;
+    overflow:hidden;
+    height:70%;
+    width:70%;
+}
