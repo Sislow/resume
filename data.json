@@ -19,23 +19,15 @@
     "url" : "https://www.instagram.com/otis_insta_graham_n/?hl=en"
   }],
 
-"home" : {
-    "description": "My first implementations for Nodejs."
-  },
-  "cards" : {
-    "about": "",
-    "dogs": "",
-    "me": "",
-    "me_2": "",
-    "me_3": "",
-    "gotag": "",
-    "gotag_2": "",
-    "gotag_3": "",
-    "unity": "",
-    "unity_2": "",
-    "unity_3": "",
-    "dev": "",
-    "dev_2": ""
-  }
-
+  "cards" : [{
+      "title" : "BMW",
+      "description" : "At BMW I worked on Google glass before the official release of a GDK",
+      "url": "http://bmw.com",
+      "img": "https://www.bmwusa.com/content/dam/bmwusa/homepage/series_selector/16IC-270-420-80.png"
+  },{
+      "title" : "IMGUR",
+      "description" : "GREAT SITE VISIT",
+      "url": "http://www.imgur.com",
+      "img": "http://s.imgur.com/images/logo-1200-630.jpg?2"
+    }]
 }
