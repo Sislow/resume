@@ -1,9 +1,8 @@
 
 	<h3><%=appdata.info.title%> <%=appdata.info.name%></h3>
-	
+
 	<ul class=ic>
 		<% appdata.social.forEach(function(item) { %>
       	<li><a href="<%= item.url %>"><img class="icon" src="<%= item.img %>" alt="icon for <%= item.shortname %>"></a></li>
     <% }); %>
 	</ul>
-	

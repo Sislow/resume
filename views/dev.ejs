@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
     <% include partials/page/head.ejs %>
-	
-	<body class="<%= classname %>">   
-	
-	<% include partials/page/header.ejs %> 
+
+	<body class="<%= classname %>">
 
 	<div class="headHolder">
 		<div class="nav">
-				
+
 			<ul>
-				<li><img src="/images/olioli.png" /></li>
-				<li><h1>OLiOLi</h1></li>
-				<li><a href="http://localhost:3000/">Home</a></li>		
+				<li><h1>Oliver Hardwick</h1></li>
+				<li><a href="http://localhost:3000/">Home</a></li>
 				<li><a href="http://localhost:3000/about">About</a></li>
 				<li><a href="http://localhost:3000/dev">Showcase</a></li>
-				<li><h3><a href="http://localhost:3000/login"> Sign-In</a></h3></li>
+				<li><h3><a href="http://localhost:3000/Blog"> Blog</a></h3></li>
 			</ul>
 
 		</div>
@@ -27,11 +24,11 @@
 					<div class="imageShow imageShowhov">
 	    				<a href="http://cech.uc.edu/it.html" target="_blank"><img src="/images/uc_long_logo.jpg"></a>
 	    			</div>
-					
+
 					<p>In my major Information Technology Software track I get to work on a lot of cool projects</p>
-					
+
 					<p><%= appdata.cards.about %></p>
-					
+
 	</div>
 
 	<div class="content">
@@ -39,13 +36,13 @@
 					<div class="imageShow imageShowhov">
 	    				<img src="/images/dev/gotag.jpg">
 	    			</div>
-					
+
 					<h1>GoTag</h1>
-					
+
 					<p><%= appdata.cards.gotag %></p>
 					<p><%= appdata.cards.gotag_2 %></p>
 					<p><%= appdata.cards.gotag_3 %></p>
-					
+
 	</div>
 
 	<div class="content">
@@ -58,19 +55,19 @@
 	    				<a href="https://www.youtube.com/watch?v=d3HEFiDFApI" target="_blank"><img src="/images/dev/Ninja_2D.png"></a>
 	    			</div>
 				</div>
-					
+
 					<h1>Game Development</h1>
-					
+
 					<p><%= appdata.cards.unity %></p>
 					<p><%= appdata.cards.unity_2 %></p>
 					<p><%= appdata.cards.unity_3 %></p>
-								
+
 					<a href="http://unity3d.com/" target="_blank"><img src="/images/dev/unity.png" width="10%"></a>
 
 	</div>
 
 	<div class="content">
-		
+
 		<h2>Google Glass Promo Video</h2>
 		<video controls>
 	  		<!--<source src="/images/Combined.mp4" type="video/mp4">
@@ -98,15 +95,15 @@
 	    			<div class="large imageShowhov">
 	        			<a href="http://msdn.microsoft.com/en-us/vstudio/hh341490.aspx" target="_blank"><img src="/images/dev/C_Sharp.png"></a>
 	    			</div>
-		    			
+
 				</div>
-					
+
 				<p><%= appdata.cards.dev %></p>
 				<p><%= appdata.cards.dev_2 %></p>
-					
-					
+
+
 	</div>
-	
+
 	<div class="foot">
 		<% include partials/page/footer.ejs %>
 	</div>
