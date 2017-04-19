@@ -7,12 +7,11 @@
 
 	<% include partials/page/nav.ejs %>
 
-	    <h1>Hello</h1><br>
       <% appdata.cards.forEach(function(items) { %>
         <div class="content">
           <div class="imageShow imageShowhov"><img src="<%= items.img %>"></div>
           <h1><%= items.title %></h1>
-          
+
           <p><%= items.description %></p>
       </div>
       <% }); %>
