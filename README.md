@@ -1,4 +1,4 @@
-# Resume Site V-0.0.1
+# Resume Site V-0.0.2
 I utilize this for experimenting with different technologies
 
 Currently based on node.js and Express
@@ -22,7 +22,12 @@ Currently based on node.js and Express
   - Removed text to be updated
   - added ReadME
 
-
+## V-0.0.2
+  - Blog added
+  - Blog adjusted to work with json data. Currently hosting fake data
+  - Added new banner
+  - Removed nav and placed it into a seperate partial ejs
+  
 #### Built in Atom
 #### Hosted on AWS
 #### Oliver Hardwick ©
