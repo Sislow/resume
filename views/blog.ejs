@@ -1,32 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <% include partials/page/head_login.ejs %>
+    <% include partials/page/head.ejs %>
 
 	<body class="<%= classname %>">
 
-	<div class="headHolder">
-		<div class="nav">
-
-			<ul>
-				<li><img src="/images/olioli.png" /></li>
-				<li><h1>OLiOLi</h1></li>
-				<li><a href="http://localhost:3000/">Home</a></li>
-				<li></li><a href="http://localhost:3000/about">About</a></li>
-				<li><a href="http://localhost:3000/dev">Showcase</a></li>
-			</ul>
-
-		</div>
-	</div>
+	<% include partials/page/nav.ejs %>
 
 	<div class="login-card">
 
-	    <h1>Log-in</h1><br>
-		  <form>
+	    <h1>Hello</h1><br>
+		  <!-- <form>
 		    <input type="text" name="user" placeholder="Username">
 		    <input type="password" name="pass" placeholder="Password">
 		    <input type="submit" name="login" class="login login-submit" value="login">
-		  </form>
+		  </form> -->
 
 		  <div class="login-help">
 		    <a href="#">Register</a> • <a href="#">Forgot Password</a>

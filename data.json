@@ -13,6 +13,10 @@
     "shortname" : "facebook",
     "img" : "/images/socialmedia/facebook.png",
     "url" : "https://www.facebook.com/oliolihar"
+  },{
+    "shortname" : "instagram",
+    "img" : "/images/socialmedia/instagram.png",
+    "url" : "https://www.instagram.com/otis_insta_graham_n/?hl=en"
   }],
 
 "home" : {
