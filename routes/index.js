@@ -19,17 +19,17 @@ exports.about = function(req, res) {
 // Set info route
 exports.dev = function(req, res) {
 	res.render('dev', {
-		title: 'Showcase',
+		title: 'Playground',
 		classname: 'app'
 	});
 
 }
 
 // Set login route
-exports.login = function(req, res) {
-	res.render('login', {
-		title: 'Login',
-		classname: 'login'
+exports.blog = function(req, res) {
+	res.render('blog', {
+		title: 'blog',
+		classname: 'blog'
 	});
 
 }

@@ -5,19 +5,8 @@
 
 	<body class="<%= classname %>">
 
-	<div class="headHolder">
-		<div class="nav">
+	<% include partials/page/nav.ejs %>
 
-			<ul>
-				<li><h1>Oliver Hardwick</h1></li>
-				<li><a href="http://localhost:3000/">Home</a></li>
-				<li><a href="http://localhost:3000/about">About</a></li>
-				<li><a href="http://localhost:3000/dev">Showcase</a></li>
-				<li><h3><a href="http://localhost:3000/Blog"> Blog</a></h3></li>
-			</ul>
-
-		</div>
-	</div>
 
 	<div class="content">
 
@@ -27,7 +16,7 @@
 
 					<p>In my major Information Technology Software track I get to work on a lot of cool projects</p>
 
-					<p><%= appdata.cards.about %></p>
+					<p></p>
 
 	</div>
 
@@ -39,9 +28,7 @@
 
 					<h1>GoTag</h1>
 
-					<p><%= appdata.cards.gotag %></p>
-					<p><%= appdata.cards.gotag_2 %></p>
-					<p><%= appdata.cards.gotag_3 %></p>
+					<p></p>
 
 	</div>
 
@@ -58,9 +45,7 @@
 
 					<h1>Game Development</h1>
 
-					<p><%= appdata.cards.unity %></p>
-					<p><%= appdata.cards.unity_2 %></p>
-					<p><%= appdata.cards.unity_3 %></p>
+					<p></p>
 
 					<a href="http://unity3d.com/" target="_blank"><img src="/images/dev/unity.png" width="10%"></a>
 
@@ -98,8 +83,7 @@
 
 				</div>
 
-				<p><%= appdata.cards.dev %></p>
-				<p><%= appdata.cards.dev_2 %></p>
+				<p></p>
 
 
 	</div>

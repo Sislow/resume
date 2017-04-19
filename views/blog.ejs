@@ -1,68 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <% include partials/page/head_login.ejs %>
+    <% include partials/page/head.ejs %>
 
-	<body class="<%= classname %>">
+	<body>
 
-	<div class="headHolder">
-		<div class="nav">
+	<% include partials/page/nav.ejs %>
 
-			<ul>
-				<li><img src="/images/olioli.png" /></li>
-				<li><h1>OLiOLi</h1></li>
-				<li><a href="http://localhost:3000/">Home</a></li>
-				<li></li><a href="http://localhost:3000/about">About</a></li>
-				<li><a href="http://localhost:3000/dev">Showcase</a></li>
-			</ul>
+      <% appdata.cards.forEach(function(items) { %>
+        <div class="content">
+          <div class="imageShow imageShowhov"><img src="<%= items.img %>"></div>
+          <h1><%= items.title %></h1>
 
-		</div>
-	</div>
-
-	<div class="login-card">
-
-	    <h1>Log-in</h1><br>
-		  <form>
-		    <input type="text" name="user" placeholder="Username">
-		    <input type="password" name="pass" placeholder="Password">
-		    <input type="submit" name="login" class="login login-submit" value="login">
-		  </form>
-
-		  <div class="login-help">
-		    <a href="#">Register</a> • <a href="#">Forgot Password</a>
-		  </div>
-
-	</div>
-
-		<div class="sso">
-		<h1>Like our page at your Leisure</h1>
-		<div class="content">
-
-				<div class="imageShow">
-    				<a href="https://www.twitter.com/otis327"><img src="/images/socialmedia/twitter.png"></a>
-    			</div>
-
-		</div>
-
-
-	    <div class="content">
-
-			<div class="imageShow">
-	    		<a href="https://www.facebook.com/oliolihar/timeline"><img src="/images/socialmedia/facebook.png"></a>
-
-	    	</div>
-
-
-		</div>
-
-		<div class="content">
-
-			<div class="imageShow">
-	    		<a href="https://plus.google.com/+OliverHardwick/posts"><img src="/images/socialmedia/googleplus.png"></a>
-	    	</div>
-
-		</div>
-	</div>
+          <p><%= items.description %></p>
+      </div>
+      <% }); %>
 
   	<% include partials/page/jsdefault.ejs %>
   	<% include partials/page/scripts.ejs %>
