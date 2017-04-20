@@ -28,9 +28,6 @@ Currently based on node.js and Express
   - Added new banner
   - Removed nav and placed it into a seperate partial ejs
 
-## V-0.0.3
-  - Plans to be added upon starting new work
-
 #### Built in Atom
 #### Hosted on AWS
 #### Oliver Hardwick ©
