@@ -25,8 +25,7 @@ app.locals.appdata = require('./data.json');
 
 // Set pages
 app.get('/', routes.index);
-app.get('/about', routes.about);
-app.get('/dev', routes.dev);
+app.get('/playground', routes.playground);
 app.get('/blog', routes.blog);
 
 app.get('*', routes.wrong);
