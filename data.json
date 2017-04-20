@@ -12,14 +12,15 @@
   },{
     "shortname" : "facebook",
     "img" : "/images/socialmedia/facebook.png",
-    "url" : "https://www.facebook.com/oliolihar"
+    "url" : "https://www.facebook.com/oliverHarHar"
   },{
     "shortname" : "instagram",
     "img" : "/images/socialmedia/instagram.png",
     "url" : "https://www.instagram.com/otis_insta_graham_n/?hl=en"
   }],
 
-  "cards" : [{
+
+  "blog_posts" : [{
       "title" : "BMW",
       "description" : "At BMW I worked on Google glass before the official release of a GDK",
       "url": "http://bmw.com",

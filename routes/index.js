@@ -7,20 +7,11 @@ exports.index = function(req, res) {
 
 }
 
-// Set about route
-exports.about = function(req, res) {
-	res.render('about', {
-		title: 'About Us',
-		classname: 'about'
-	});
-
-}
-
 // Set info route
-exports.dev = function(req, res) {
-	res.render('dev', {
+exports.playground = function(req, res) {
+	res.render('playground', {
 		title: 'Playground',
-		classname: 'app'
+		classname: 'playground'
 	});
 
 }

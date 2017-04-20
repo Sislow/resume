@@ -27,7 +27,7 @@ Currently based on node.js and Express
   - Blog adjusted to work with json data. Currently hosting fake data
   - Added new banner
   - Removed nav and placed it into a seperate partial ejs
-  
+
 #### Built in Atom
 #### Hosted on AWS
 #### Oliver Hardwick ©
