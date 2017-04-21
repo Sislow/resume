@@ -1,0 +1,15 @@
+{
+
+"playground_posts" : [{
+    "title" : "",
+    "description" : "CECH School of Information Technology Software Development Track",
+    "url": "http://cech.uc.edu/it.html",
+    "img": "/images/uc_long_logo.jpg"
+  },{
+    "title" : "First Year Assistant",
+    "description" : "I built this website for my capstone at UC. It was one of my first complete programs. Still listed on my Github.",
+    "url": "/images/FYE_paper.pdf",
+    "img": "/images/FYE_poster.png"
+  }]
+
+}

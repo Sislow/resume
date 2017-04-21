@@ -21,12 +21,14 @@ app.use("/images", express.static(__dirname + "/images"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 
-app.locals.appdata = require('./data.json');
+// load text for pages
+app.locals.appdata    = require('./data/data.json');
+app.locals.blog       = require('./data/blog.json');
+app.locals.playground = require('./data/playground.json');
 
 // Set pages
 app.get('/', routes.index);
-app.get('/about', routes.about);
-app.get('/dev', routes.dev);
+app.get('/playground', routes.playground);
 app.get('/blog', routes.blog);
 
 app.get('*', routes.wrong);

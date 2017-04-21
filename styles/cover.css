@@ -35,7 +35,7 @@ body {
     padding: 0;
     float: left;
 }
-.banner { position: fixed; top: 0; left: 15%;}
+.banner { position: fixed; top: auto; 0; left: 15%;}
 .nav li { display: inline-block;}
 .nav a:hover, a:active { background-color: black; opacity: 0.5; }
 .nav a:link, a:visited {
@@ -77,6 +77,10 @@ body {
     background: white;
     padding: 10px;
     text-align: center;
+    margin: 1%;
+}
+.imageShow img {
+    width: 60%;
 }
 .imageShow a {
     text-decoration: none;

@@ -1,0 +1,10 @@
+{
+  "info": {"title" : "Author","name": "Oliver Hardwick","summary" : ""},
+  "social" : [{
+    "shortname" : "twitter","img" : "/images/socialmedia/twitter.png","url" : "http://www.twitter.com/otis327"
+  },{
+    "shortname" : "facebook","img" : "/images/socialmedia/facebook.png","url" : "https://www.facebook.com/oliverHarHar"
+  },{
+    "shortname" : "instagram","img" : "/images/socialmedia/instagram.png","url" : "https://www.instagram.com/otis_insta_graham_n/?hl=en"
+  }]
+}
