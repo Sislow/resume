@@ -77,6 +77,10 @@ body {
     background: white;
     padding: 10px;
     text-align: center;
+    margin: 1%;
+}
+.imageShow img {
+    width: 60%;
 }
 .imageShow a {
     text-decoration: none;
