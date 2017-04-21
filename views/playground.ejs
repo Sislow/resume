@@ -7,17 +7,19 @@
 
 	<% include partials/page/nav.ejs %>
 
+  <div class="wrapper">
   <% playground.playground_posts.forEach(function(item) { %>
-    <div class="content">
+    <div class="content <%= item.size %>">
       <div class="imageShow imageShowhov">
         <a href="<%= item.url %>" target="_blank"><img src="<%= item.img %>"></a>
       </div>
       <h2><%= item.title %></h2>
 
       <p><%= item.description %></p>
+      <small class="timestamp"><%= item.date %></small>
     </div>
   <% }); %>
-
+  </div>
 
 	<div class="foot">
 		<% include partials/page/footer.ejs %>

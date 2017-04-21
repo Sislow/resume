@@ -16,6 +16,7 @@ var routes = require('./routes');
 
 // Set view engine for app
 app.set('view engine', 'ejs');
+app.use("/scripts", express.static(__dirname + "/scripts"));
 app.use("/styles", express.static(__dirname + "/styles"));
 app.use("/images", express.static(__dirname + "/images"));
 app.use(bodyParser.json());
