@@ -1,15 +1,61 @@
 {
 
 "blog_posts" : [{
-    "title" : "BMW",
-    "description" : "At BMW I worked on Google glass before the official release of a GDK",
-    "url": "http://bmw.com",
-    "img": "https://www.bmwusa.com/content/dam/bmwusa/homepage/series_selector/16IC-270-420-80.png"
+    "title" : "Essentially a blog",
+    "description" : "Avenue for my work that is not paticularly software development oriented",
+    "url": "",
+    "img": "/images/blah_header.PNG",
+    "date": "04/21/17",
+    "size": "huge",
+    "animate": ""
   },{
     "title" : "IMGUR",
     "description" : "GREAT SITE VISIT",
     "url": "http://www.imgur.com",
-    "img": "http://s.imgur.com/images/logo-1200-630.jpg?2"
+    "img": "http://s.imgur.com/images/logo-1200-630.jpg?2",
+    "date": "5/1/17",
+    "size": "small",
+    "animate": "animated bounceInUp"
+  },{
+    "title" : "IMGUR",
+    "description" : "GREAT SITE VISIT",
+    "url": "http://www.imgur.com",
+    "img": "http://s.imgur.com/images/logo-1200-630.jpg?2",
+    "date": "5/1/17",
+    "size": "small",
+    "animate": "animated bounceInUp"
+  },{
+    "title" : "IMGUR",
+    "description" : "GREAT SITE VISIT",
+    "url": "http://www.imgur.com",
+    "img": "http://s.imgur.com/images/logo-1200-630.jpg?2",
+    "date": "5/1/17",
+    "size": "small",
+    "animate": "animated bounceInUp"
+  },{
+    "title" : "IMGUR",
+    "description" : "GREAT SITE VISIT",
+    "url": "http://www.imgur.com",
+    "img": "http://s.imgur.com/images/logo-1200-630.jpg?2",
+    "date": "5/1/17",
+    "size": "small",
+    "animate": "animated bounceInUp"
+  },{
+    "title" : "IMGUR",
+    "description" : "GREAT SITE VISIT",
+    "url": "http://www.imgur.com",
+    "img": "http://s.imgur.com/images/logo-1200-630.jpg?2",
+    "date": "5/1/17",
+    "size": "small",
+    "animate": "animated bounceInUp"
+  },{
+    "title" : "IMGUR",
+    "description" : "GREAT SITE VISIT",
+    "url": "http://www.imgur.com",
+    "img": "http://s.imgur.com/images/logo-1200-630.jpg?2",
+    "date": "5/1/17",
+    "size": "small",
+    "animate": "animated bounceInUp"
   }]
 
 }

@@ -7,15 +7,17 @@
 
 	<% include partials/page/nav.ejs %>
 
-      <% blog.blog_posts.forEach(function(items) { %>
-        <div class="content">
-          <div class="imageShow imageShowhov"><img src="<%= items.img %>"></div>
-          <h1><%= items.title %></h1>
-
-          <p><%= items.description %></p>
-      </div>
+      <div class="wrapper">
+      <% blog.blog_posts.forEach(function(item) { %>
+        <% if(item.animate != "") { } else { ""} %>
+          <div class="content <%= item.size %> <%= item.animate %>" id="" >
+            <div class="imageShow imageShowhov"><img src="<%= item.img %>"></div>
+            <h1><%= item.title %></h1>
+            <p><%= item.description %></p>
+            <small class="timestamp"><%= item.date %></small>
+          </div>
       <% }); %>
-
+      </div>
   	<% include partials/page/jsdefault.ejs %>
   	<% include partials/page/scripts.ejs %>
 

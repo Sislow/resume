@@ -1,23 +1,54 @@
-.wrapper
-{
-    width:100%;
-    display: inline-block;
- 
+/*
+  Contains:
+    - tile sizing
+    - photo formats
+    - content sizing
+*/
+.imageShow {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    background: white;
+    padding: 10px;
+    text-align: center;
+    margin: 1%;
+}
+.imageShow img  { width: 60%; }
+.imageShow a    { text-decoration: none; }
+
+.imageShowhov:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+
+}
+.timestamp  { text-align: right; margin-left: 90% }
+.wrapper    { width:100%; display: inline-block; }
+
+.content {
+    text-align: center;
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 2%;
+    padding: 10px;
+    overflow: hidden;
+
+   -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
 }
 
+.plain{/* allow content to handle sizing affects */}
 .small
 {
-    float: left;
-    width: 50%;
-    height: auto;
-    top: 0;
-    overflow: hidden;
+  float: left;
+  position: relative;
+  display: fixed;
+  height:30%;
+  width:30%;
 }
 
 .large
 {
     float: left;
-    overflow: hidden;
     height:30%;
     width:30%;
 }
@@ -25,14 +56,15 @@
 .largeR
 {
     float: right;
-    overflow: hidden;
+
     height:30%;
     width:30%;
 }
 .huge
 {
     float: left;
-    overflow:hidden;
+
     height:70%;
-    width:70%;
+    margin-left: 0;
+    width:100%;
 }

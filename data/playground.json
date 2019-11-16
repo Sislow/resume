@@ -1,15 +1,47 @@
 {
 
 "playground_posts" : [{
+    "title" : "Integrate CMS for the blog",
+    "description" : "",
+    "url": "",
+    "img": "https://s.w.org/images/backgrounds/wordpress-bg-medblue.png",
+    "date": "04/19/17",
+    "size": "plain"
+  },{
+    "title" : "Optimize the site for mobile",
+    "description" : "",
+    "url": "",
+    "img": "https://openclipart.org/image/2400px/svg_to_png/216528/Mobile-Icon-White-on-Black.png",
+    "date": "04/19/17",
+    "size": "plain"
+  },{
+    "title" : "Create more diverse format to content",
+    "description" : "Currently we only have one size of space. Only oneline for description. Need more.",
+    "url": "",
+    "img": "https://cdn2.iconfinder.com/data/icons/usability-test-02/100/yuluck_icon-50-512.png",
+    "date": "04/19/17",
+    "size": "plain"
+  },{
+    "title" : "Work with Sketch for redesign",
+    "description" : "As a fun side project of something I have never worked with.",
+    "url": "",
+    "img": "http://www.nonprofit-tech.org/sedna/img/sketch-logo.png",
+    "date": "04/19/17",
+    "size": "plain"
+  },{
     "title" : "",
     "description" : "CECH School of Information Technology Software Development Track",
     "url": "http://cech.uc.edu/it.html",
-    "img": "/images/uc_long_logo.jpg"
+    "img": "/images/uc_long_logo.jpg",
+    "date": "2010-2016",
+    "size": "plain"
   },{
     "title" : "First Year Assistant",
     "description" : "I built this website for my capstone at UC. It was one of my first complete programs. Still listed on my Github.",
     "url": "/images/FYE_paper.pdf",
-    "img": "/images/FYE_poster.png"
+    "img": "/images/FYE_poster.png",
+    "date": "5/01/16",
+    "size": "plain"
   }]
 
 }
